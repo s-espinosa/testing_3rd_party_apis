@@ -20,6 +20,7 @@ gem 'figaro'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'pry-rails'
   gem 'rspec-rails'
 end
 
